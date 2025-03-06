@@ -1,19 +1,18 @@
 # Authorization start
 
-Starter project for authorization workshop.
+## Overview
+This project implements a web API for a news site, enforcing access control policies based on user roles. The API ensures that only authorized users can perform specific actions, such as creating, editing, or deleting articles and comments. The solution follows the principle of least privilege and uses role-based authorization.
 
 ## Getting started
 
 ```sh
-docker compose up --build
+dotnet run
 ```
 ## Access the API:
 <http://localhost:5171/swagger/index.html>
 
 Set `useCookies` and `useSessionCookies` to true for login.
 
-## Overview
-This project implements a web API for a news site, enforcing access control policies based on user roles. The API ensures that only authorized users can perform specific actions, such as creating, editing, or deleting articles and comments. The solution follows the principle of least privilege and uses role-based authorization.
 
 ## Access Control Policies
 The API enforces the following policies:
